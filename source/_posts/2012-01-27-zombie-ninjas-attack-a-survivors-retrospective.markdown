@@ -3,7 +3,7 @@ layout: post
 title: "Zombie Ninjas Attack: A survivor's retrospective"
 date: 2012-01-27 10:41
 comments: true
-categories: Zombis, Ninjas
+categories: [Zombies, Ninjas]
 ---
 
 ## Hello Zombies
