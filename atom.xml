@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://itsthatguy.github.com/itg.blog/atom.xml" rel="self"/>
   <link href="http://itsthatguy.github.com/itg.blog/"/>
-  <updated>2012-01-28T17:17:24-05:00</updated>
+  <updated>2012-01-28T17:44:26-05:00</updated>
   <id>http://itsthatguy.github.com/itg.blog/</id>
   <author>
     <name><![CDATA[Kevin Altman]]></name>
@@ -12,6 +12,30 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[No Seriously]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/01/28/no-seriously/"/>
+    <updated>2012-01-28T17:34:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog/blog/2012/01/28/no-seriously</id>
+    <content type="html"><![CDATA[<p>don&#8217;t do it johnny!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tyler is a bawss]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/01/28/tyler-is-a-bawss/"/>
+    <updated>2012-01-28T17:30:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog/blog/2012/01/28/tyler-is-a-bawss</id>
+    <content type="html"><![CDATA[<h2>BACHOW</h2>
+
+<ul>
+<li>bang pow</li>
+<li>boobop</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Zombie Ninjas Attack: A survivor's retrospective]]></title>
