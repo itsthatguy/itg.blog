@@ -1,14 +1,18 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
 {% include head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include header.html %}</header>
-  <nav role="navigation">{% include navigation.html %}</nav>
-  <div id="main">
-    <div id="content">
-      {{ content | expand_urls: root_url }}
+        <div class='content'>
+          <h1 class="header">Welcome to my mind</h1>
+          {{ content | expand_urls: root_url }}
+        </div>
+      </section>
     </div>
-  </div>
-  <footer role="contentinfo">{% include footer.html %}</footer>
-  {% include after_footer.html %}
-</body>
+    <div class='pages'>
+      <div class='b1'></div>
+      <div class='b2'></div>
+    </div>
+    
+    <footer>
+      <p> FOOTER </p>
+    </footer>
+  </body>
 </html>
