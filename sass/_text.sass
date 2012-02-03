@@ -1,0 +1,117 @@
+////
+// Basic HTML
+
+$serif1: "rooney-web"
+$sans1: "rooney-web"
+$header-font: "raleway"
+$mono: 'Bitstream Vera Sans Mono','Courier',monospace
+
+$base-size: 16
+
+$font-dark: #61656a
+$font-mid: #adabb4
+$font-light: #c3c8d3
+$font-red: #ae4e46
+$font-dark-red: #8f322a
+
+
+@function em($px)
+  @return #{$px/$base-size}em
+  
+html
+  font-size: 100%
+
+body
+  color: $font-dark
+  font-family: $sans1
+  font-size: #{$base-size}px
+  line-height: em(24)
+
+a:focus
+  outline: 0
+
+hr
+  border: 0 #ccc solid
+  border-top-width: 1px
+  clear: both
+  height: 0
+
+////
+// Headings
+
+h1, h2, h3, p
+  padding: 0
+  margin: 0
+
+h1
+  color: $font-light
+  display: block
+  font-family: $header-font
+  font-size: em(48)
+  font-style: normal
+  font-weight: 100
+  line-height: em(6)
+  padding-bottom: em(12)
+  padding-top: em(12)
+
+h2
+  color: $font-mid
+  display: block
+  font-family: $serif1
+  font-size: em(36)
+  font-weight: normal
+  line-height: 1em
+  padding-bottom: em(6)
+  a, a:visited, a:hover
+    color: $font-red
+    text-decoration: none
+  a:hover
+    color: $font-dark-red
+
+h3
+  color: $font-light
+  font-family: $serif1
+  font-size: em(24)
+  font-style: normal
+  font-weight: 100
+  line-height: em(12)
+  padding-bottom: em(12)
+
+h4
+  font-size: 19px
+
+h5
+  font-size: 17px
+
+h6
+  font-size: 15px
+  
+p
+  padding-bottom: em(24)
+
+code
+  font-family: $mono
+  font-size: em(14)
+  line-height: em(28)
+  margin-top: em(-16)
+  margin-bottom: em(-16)
+  padding: em(16)
+  
+
+pre
+  font-size: 1em
+  line-height: 1em
+  padding-bottom: em(24)
+  margin: 0
+
+////
+// Spacing
+
+ol
+  list-style: decimal
+
+ul
+  list-style: disc
+
+li
+  margin-left: 30px
