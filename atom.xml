@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://itsthatguy.github.com/itg.blog/atom.xml" rel="self"/>
   <link href="http://itsthatguy.github.com/itg.blog/"/>
-  <updated>2012-02-03T15:58:37-05:00</updated>
+  <updated>2012-02-03T16:06:32-05:00</updated>
   <id>http://itsthatguy.github.com/itg.blog/</id>
   <author>
     <name><![CDATA[Kevin Altman]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[blargh]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blargh/"/>
+    <updated>2012-02-03T16:06:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blargh</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[blarg2]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blarg2/"/>
+    <updated>2012-02-03T16:06:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blarg2</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[blaasdl;fkj]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blaasdl-fkj/"/>
+    <updated>2012-02-03T16:06:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog/blog/2012/02/03/blaasdl-fkj</id>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Just another IE complaint... Lorem ipsum dolor sit amet, consectetur adipisicing elit.]]></title>
