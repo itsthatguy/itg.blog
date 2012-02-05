@@ -17,7 +17,7 @@ $font-dark-red: #8f322a
 
 @function em($px)
   @return #{$px/$base-size}em
-  
+
 html
   font-size: 100%
 
@@ -95,7 +95,7 @@ h5
 
 h6
   font-size: 15px
-  
+
 p
   padding-bottom: 24px
   font-weight: 300
@@ -109,7 +109,14 @@ code
   margin-top: em(-16)
   margin-bottom: em(-16)
   padding: em(16)
-  
+
+blockquote
+  border-left: 4px solid $font-light
+  color: $font-mid
+  margin: 0 0 24px 0
+  padding-left: 24px
+  p
+    padding-bottom: 0
 
 pre
   font-size: 1em
@@ -128,11 +135,11 @@ ul
 
 li
   margin-left: 30px
-  
+
 @media screen and (max-width: 810px)
   .col-6
     width: 96%
-    
+
 @media screen and (max-width: 320px)
   .header
     font-size: 18px

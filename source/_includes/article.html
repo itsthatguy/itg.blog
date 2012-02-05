@@ -1,8 +1,9 @@
 {% if index %}
   <h3>{% include post/date.html %}{{ time }}</h3>
   <h2 class="title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h2>
-  <em>{{ content | excerpt }}
-    <a href="{{root_url}}{{ post.url }}" class="more"></a></em>
+  <em>{{ content | excerpt }}</em>
+  {% if post.dude %}LAKSJD{% endif %}
+  
 {% else %}
   <h3 class="date">{% include post/date.html %}{{ time }}</h3>
   <h2 class="title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h2>

@@ -4,6 +4,7 @@ title: "Just another IE complaint... Lorem ipsum dolor sit amet, consectetur adi
 date: 2012-02-02 10:08
 comments: true
 categories: 
+dude: "stuff"
 ---
 
 Yesterday, I found a pretty nasty CSS bug that completely shutdown IE8. If you tried to view a page that had the CSS, the browser would completely freeze, and not recover. You had to ctrl+alt+del and kill it.
