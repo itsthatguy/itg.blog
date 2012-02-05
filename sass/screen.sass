@@ -124,8 +124,8 @@ section
   div.content
     +row
     display: block
-    padding: 0 40px
-    max-width: 960px
+    padding: 0 40px 0 40px
+    width: 960px
     article
       +col(12)
       border-bottom: 1px solid #d9d9e3
@@ -182,13 +182,21 @@ code
 
 
 footer
-  background-color: #d7d8e2
   color: white
   clear: both
-  margin: 0 auto
-  width: 100%
+  section
+    background-image: url(../images/hr1.png)
+    background-position: left top
+    background-repeat: repeat-x
+    margin: 0 40px
+    padding: 24px 0
+    width: 960px
   p
     padding: 24px 30px
+  #dribbble
+    img
+      box-shadow: 0 0 0 4px #fff, 0 2px 8px $font-dark
+    
   
   
   .blog-archives
