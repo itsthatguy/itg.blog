@@ -172,10 +172,12 @@ code
       &.older
         border-right: 1px solid lighten($font-light, 6%)
         float: left
+        padding-right: 12px
         margin: 0
       &.newer
         float: left
         margin: 0
+        padding-left: 12px
         text-align: right
 
 
@@ -219,3 +221,9 @@ footer
 @media screen and (max-width: 320px)
   section div.content article
     width: 80%
+  
+  .pagination
+    .trex
+      display: none
+    ul li
+      width: 20px
