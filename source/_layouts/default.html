@@ -1,19 +1,7 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include head.html %}        
-        <h1 class="header">Welcome to my mind</h1>
-        <div class='content'>
-          {{ content | expand_urls: root_url }}
-          
-        <footer>
-          <p> FOOTER </p>
-        </footer>
-        </div>
-      </section>
-      
-    </div>
-    <div class='pages'>
-      <div class='b1'></div>
-      <div class='b2'></div>
-    </div>
-  </body>
-</html>
+{% include head.html %}
+
+<div class='content'>
+  {{ content | expand_urls: root_url }}
+</div>
+{% include footer.html %}

@@ -1,14 +1,14 @@
 ////
 // Basic HTML
 
-$serif1: "rooney-web"
-$sans1: "rooney-web"
+$serif1: "goudy-bookletter-1911"
+$sans1: "Myriad Pro"
 $header-font: "raleway"
 $mono: 'Bitstream Vera Sans Mono','Courier',monospace
 
 $base-size: 16
 
-$font-dark: #61656a
+$font-dark: #808190
 $font-mid: #adabb4
 $font-light: #c3c8d3
 $font-red: #ae4e46
@@ -25,7 +25,14 @@ body
   color: $font-dark
   font-family: $sans1
   font-size: #{$base-size}px
-  line-height: em(24)
+  font-weight: 500
+  line-height: 24px
+
+a, a:visited
+  color: $font-red
+  text-decoration: none
+a:hover
+  color: $font-dark-red
 
 a:focus
   outline: 0
@@ -47,35 +54,38 @@ h1
   color: $font-light
   display: block
   font-family: $header-font
-  font-size: em(48)
+  font-size: 48px
   font-style: normal
   font-weight: 100
-  line-height: em(6)
-  padding-bottom: em(12)
-  padding-top: em(12)
+  line-height: 24px
+  padding-bottom: 36px
+  padding-top: 24px
 
 h2
-  color: $font-mid
+  color: $font-red
   display: block
   font-family: $serif1
-  font-size: em(36)
+  font-size: 36px
   font-weight: normal
-  line-height: 1em
-  padding-bottom: em(6)
+  line-height: 50px
+  padding-bottom: 8px
+  padding-top: 4px
   a, a:visited, a:hover
     color: $font-red
+    font-style: none
     text-decoration: none
   a:hover
     color: $font-dark-red
+  > a
+    font-style: normal
 
 h3
   color: $font-light
   font-family: $serif1
-  font-size: em(24)
-  font-style: normal
+  font-size: 18px
+  font-style: italic
   font-weight: 100
-  line-height: em(12)
-  padding-bottom: em(12)
+  line-height: 24px
 
 h4
   font-size: 19px
@@ -87,7 +97,10 @@ h6
   font-size: 15px
   
 p
-  padding-bottom: em(24)
+  padding-bottom: 24px
+  font-weight: 300
+  a
+    font-weight: 500
 
 code
   font-family: $mono
@@ -115,3 +128,11 @@ ul
 
 li
   margin-left: 30px
+  
+@media screen and (max-width: 810px)
+  .col-6
+    width: 96%
+    
+@media screen and (max-width: 320px)
+  .header
+    font-size: 18px

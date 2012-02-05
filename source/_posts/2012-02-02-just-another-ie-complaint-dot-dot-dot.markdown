@@ -6,7 +6,7 @@ comments: true
 categories: 
 ---
 
-Yesterday, I found a pretty nasty CSS bug that completely shutdown IE8. If you tried to view a page that had the CSS, the browser would completely freeze, and not recover. You had to ctrl+alt+del and kill it.
+Yesterday, I found a pretty nasty CSS bug that completely shutdown IE8. If you tried to view a page that had the CSS, the browser would completely freeze, and not recover. You had to ctrl+alt+del and kill it.<!--more-->
 
 Seriously? There is a big difference between graceful degradation, and causing your browser to crash! I don't want to sit here and complain about how insanely unacceptable this is... I'd rather just focus on a fix.
 

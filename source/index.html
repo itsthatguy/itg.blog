@@ -9,12 +9,17 @@ layout: default
     {% include article.html %}
   </article>
 {% endfor %}
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-  {% endif %}
-  <a href="/blog/archives">Blog Archives</a>
-  {% if paginator.previous_page %}
-  <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-  {% endif %}
-</div>
+  <ul class="pagination">
+    
+    <li class="older"> &nbsp;
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
+    {% endif %}
+    </li>
+    <li class="archives"><a href="/blog/archives">Blog Archives</a></li>
+    <li class="newer">
+    {% if paginator.previous_page %}
+      <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
+    {% endif %}
+    </li>
+  </ul>

@@ -25,48 +25,56 @@ body
   background-color: #222
   background-image: url(../images/background-fabric.png)
   margin: 0
-  padding: 20px 0 0 0
+  padding: 24px 0 24px 0
 #main
   background-image: url(../images/background-page.png)
   margin: 0 auto
-  width: 1040px
+  max-width: 1040px
   box-shadow: 0 2px 3px RGBA(0,0,0,0.2)
 .pages
   margin: 0 auto
   width: 1044px
 .t1
-  background-color: #68676c
-  box-shadow: 0 -2px 1px #313133 inset
+  background-color: lighten(#68676c, 20%)
+  box-shadow: 0 -1px 1px lighten(#313133, 10%) inset
   margin: 0 auto
   width: 98%
-  height: 3px
+  height: 2px
   z-index: 1000
 .t2
-  background-color: #828286
-  box-shadow: 0 -2px 1px #3c3c3e inset
+  background-color: lighten(#828286, 30%)
+  box-shadow: 0 -1px 1px lighten(#3c3c3e, 15%) inset
   margin: 0 auto
   width: 99%
-  height: 3px
+  height: 2px
   z-index: 999
 .b1
   background-color: #828286
-  box-shadow: 0 0 1px RGBA(255,255,255,0.2) inset, 0 2px 3px RGBA(0,0,0,0.2), 0 3px 2px #3c3c3e inset
+  box-shadow: 0 0 1px RGBA(0,0,0,0.3) inset, 0 2px 3px RGBA(0,0,0,0.2), 0 3px 2px lighten(#313133, 8%) inset
   margin: 0 auto
   width: 99%
   height: 4px
   z-index: 1000
 .b2
-  background-color: #68676c
-  box-shadow: 0 0 1px RGBA(255,255,255,0.2) inset, 0 2px 3px RGBA(0,0,0,0.2), 0 3px 2px #313133 inset
+  background-color: #727276
+  box-shadow: 0 0 1px RGBA(0,0,0,0.05) inset, 0 2px 3px RGBA(0,0,0,0.2), 0 3px 2px lighten(#313133, 4%) inset
   margin: 0 auto
   width: 98%
   height: 4px
   z-index: 999
 header
-  height: 80px
   margin: 0 auto
   padding-top: 20px
   width: 100%
+  .header
+    margin-left: 40px
+    margin-right: 40px
+    background-image: url(../images/hr1.png)
+    background-position: left bottom
+    background-repeat: repeat-x
+    margin-top: 12px
+    a
+      color: $font-light
   nav
     float: right
     padding-right: 40px 
@@ -99,18 +107,15 @@ header
     border: none
     display: block
     margin-left: 34px
-    margin-top: -35px
+    margin-top: -33px
     overflow: hidden
     width: 92px
     height: 102px
 
 .bottom:after
   content: " "
-
-.header
-  padding-left: 40px
-  padding-right: 40px
-  border-bottom: 1px solid $font-light
+  
+  
 
 section
   clear: both
@@ -120,18 +125,21 @@ section
     +row
     display: block
     padding: 0 40px
-    width: 960px
+    max-width: 960px
     article
       +col(12)
       border-bottom: 1px solid #d9d9e3
-      padding: 20px 0
+      padding: 24px 0
       width: 100%
-    article:after
-      +selfclear
-    h1 + article
-      background-image: url(../images/hr1.png)
-      background-position: left top
-      background-repeat: repeat-x
+      a.more
+        background-image: url("../images/arrow.png")
+        background-repeat: no-repeat
+        display: inline-block
+        padding-right: 24px
+        height: 12px
+        width: 12px
+        &:hover
+          background-position: left -12px
 section:after, section.bottom:after
   +selfclear
 
@@ -139,29 +147,63 @@ code
   background-color: #fff
   display: table
 
-footer
+ul.pagination
+  background-image: url(../images/hr1.png)
+  background-position: left top
+  background-repeat: repeat-x
   clear: both
   margin: 0 auto
-  width: 960px
+  padding: 18px 0
+  width: 100%
+  height: 18px
+  li
+    display: block
+    margin: 0
+    &.older
+      float: left
+      margin: 0
+      width: 25%
+    &.archives
+      float: left
+      text-align: center
+      width: 50%
+    &.newer
+      float: left
+      margin: 0
+      text-align: right
+      width: 25%
+    a
+      color: $font-light
+      &:hover
+        color: $font-red
+
+
+footer
+  background-color: #d7d8e2
+  color: white
+  clear: both
+  margin: 0 auto
+  width: 100%
   p
-    padding: 0 30px
-
-@media screen and (max-width: 1014px)
-  header, section, section.bottom
-    width: 100%
-
-@media screen and (max-width: 990px)
+    padding: 24px 30px
+  
+  
+  .blog-archives
+    article
+      width: 25%
+  
+@media screen and (max-width: 1040px)
   header, section, section.bottom, section div.content article, section div.content
     width: 100%
     padding-left: 0
     padding-right: 0
 
   section div.content
-    width: 96%
-    padding-left: 20px
+    width: 90%
+    padding-left: 40px
     
   header a .itg
-    margin-left: 16px
+    margin-left: 36px
 
   section
     background-image: url(../images/background-page.png)
@@ -170,6 +212,9 @@ footer
   .col-6
     +col(5)
     
-@media screen and (max-width: 810px)
-  .col-6
-    width: 96%
+  .pages > *
+    width: 100%
+
+@media screen and (max-width: 320px)
+  section div.content article
+    width: 80%

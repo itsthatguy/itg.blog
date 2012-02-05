@@ -1,0 +1,7 @@
+---
+layout: post
+title: "bha12345 234 asdfasd"
+date: 2012-02-04 22:40
+comments: true
+categories: 
+---
