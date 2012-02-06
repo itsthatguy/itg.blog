@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: blah, | My Octopress Blog]]></title>
-  <link href="http://itsthatguy.github.com/itg.blog/blog/categories/blah-/atom.xml" rel="self"/>
-  <link href="http://itsthatguy.github.com/itg.blog/"/>
-  <updated>2012-02-05T15:55:09-05:00</updated>
-  <id>http://itsthatguy.github.com/itg.blog/</id>
+  <title><![CDATA[Category: blah, | itg]]></title>
+  <link href="http://www.nombies.com//blog/categories/blah-/atom.xml" rel="self"/>
+  <link href="http://www.nombies.com//"/>
+  <updated>2012-02-06T17:45:52-05:00</updated>
+  <id>http://www.nombies.com//</id>
   <author>
     <name><![CDATA[Kevin Altman]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[bha12345]]></title>
-    <link href="http://itsthatguy.github.com/itg.blog/blog/2012/02/04/bha12345/"/>
+    <link href="http://www.nombies.com//blog/2012/02/04/bha12345/"/>
     <updated>2012-02-04T22:40:00-05:00</updated>
-    <id>http://itsthatguy.github.com/itg.blog/blog/2012/02/04/bha12345</id>
+    <id>http://www.nombies.com//blog/2012/02/04/bha12345</id>
     <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ]]></content>
   </entry>
