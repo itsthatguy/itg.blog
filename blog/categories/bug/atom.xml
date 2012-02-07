@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[itg]]></title>
-  <link href="http://itsthatguy.github.com/itg.blog//atom.xml" rel="self"/>
+  <title><![CDATA[Category: bug | itg]]></title>
+  <link href="http://itsthatguy.github.com/itg.blog//blog/categories/bug/atom.xml" rel="self"/>
   <link href="http://itsthatguy.github.com/itg.blog//"/>
   <updated>2012-02-06T20:16:53-05:00</updated>
   <id>http://itsthatguy.github.com/itg.blog//</id>
@@ -14,15 +14,6 @@
 
   
   <entry>
-    <title type="html"><![CDATA[baseline grid bookmarklet]]></title>
-    <link href="http://itsthatguy.github.com/itg.blog//blog/2012/02/05/baseline-grid-bookmarklet/"/>
-    <updated>2012-02-05T14:56:00-05:00</updated>
-    <id>http://itsthatguy.github.com/itg.blog//blog/2012/02/05/baseline-grid-bookmarklet</id>
-    <content type="html"><![CDATA[<p><a href="javascript:%20(function%20()%20%7B%20%20%20%20%20%20%20%20var%20jsCode%20=%20document.createElement('script');%20%20%20%20%20%20%20%20jsCode.setAttribute('src',%20'http://dl.dropbox.com/u/37716909/baseline-grid/griditnow.js');%20%20%20%20%20%20%20%20%20%20document.body.appendChild(jsCode);%20%20%20%20%20%20%20%20%20%20%20%7D());">Bookmark me!</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Just another IE complaint... Lorem ipsum dolor sit amet, consectetur adipisicing elit.]]></title>
     <link href="http://itsthatguy.github.com/itg.blog//blog/2012/02/02/just-another-ie-complaint-dot-dot-dot/"/>
     <updated>2012-02-02T10:08:00-05:00</updated>
@@ -32,9 +23,9 @@
 <!--more-->
 
 
-<p>There is a big difference between graceful degradation, and causing your browser to crash because of a CSS pseudo-selector. I don&#8217;t want to sit here and complain about my issues with Internet Explorer; I&#8217;d rather just focus on a fix.</p>
+<p>There is a big difference between graceful degradation, and causing your browser to crash because of a CSS pseudo-selector. I don't want to sit here and complain about my issues with Internet Explorer; I'd rather just focus on a fix.</p>
 
-<p>First, let&#8217;s set up our Environment:</p>
+<p>First, let's set up our Environment:</p>
 
 <pre><code>&lt;div class="container"&gt;
   &lt;p&gt;Some Text Here&lt;/p&gt;
@@ -42,7 +33,7 @@
 &lt;/div&gt;
 </code></pre>
 
-<p>Here&#8217;s the CSS that enjoys sucking on your browser&#8217;s bone marrow:</p>
+<p>Here's the CSS that enjoys sucking on your browser's bone marrow:</p>
 
 <pre><code>.container:first-letter {
   color: blue;
@@ -50,7 +41,7 @@
 }
 </code></pre>
 
-<p>Now, let&#8217;s talk about what you need to do.</p>
+<p>Now, let's talk about what you need to do.</p>
 
 <p>Add a class to the copy so you can target it specifically.</p>
 
@@ -68,7 +59,7 @@
 }
 </code></pre>
 
-<p>I know this seems simple, but little mistakes like this in your code are extremely easy to overlook. Not only that, but different patches to IE8 resolve, and then re-introduce the bug&#8230; Long story short, try to avoid using first letter for nested elements.</p>
+<p>I know this seems simple, but little mistakes like this in your code are extremely easy to overlook. Not only that, but different patches to IE8 resolve, and then re-introduce the bug... Long story short, try to avoid using first letter for nested elements.</p>
 ]]></content>
   </entry>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: javascript | itg]]></title>
+  <link href="http://itsthatguy.github.com/itg.blog//blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://itsthatguy.github.com/itg.blog//"/>
+  <updated>2012-02-06T20:16:53-05:00</updated>
+  <id>http://itsthatguy.github.com/itg.blog//</id>
+  <author>
+    <name><![CDATA[Kevin Altman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[baseline grid bookmarklet]]></title>
+    <link href="http://itsthatguy.github.com/itg.blog//blog/2012/02/05/baseline-grid-bookmarklet/"/>
+    <updated>2012-02-05T14:56:00-05:00</updated>
+    <id>http://itsthatguy.github.com/itg.blog//blog/2012/02/05/baseline-grid-bookmarklet</id>
+    <content type="html"><![CDATA[<p><a href="javascript:%20(function%20()%20%7B%20%20%20%20%20%20%20%20var%20jsCode%20=%20document.createElement('script');%20%20%20%20%20%20%20%20jsCode.setAttribute('src',%20'http://dl.dropbox.com/u/37716909/baseline-grid/griditnow.js');%20%20%20%20%20%20%20%20%20%20document.body.appendChild(jsCode);%20%20%20%20%20%20%20%20%20%20%20%7D());">Bookmark me!</a></p>
+]]></content>
+  </entry>
+  
+</feed>
