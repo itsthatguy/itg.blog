@@ -12,6 +12,8 @@ Yesterday, I found a pretty nasty CSS bug that completely shut down IE8. If you 
 
 There is a big difference between graceful degradation, and causing your browser to crash because of a CSS pseudo-selector. I don't want to sit here and complain about my issues with Internet Explorer; I'd rather just focus on a fix.
 
+
+#### Set up the Initial Environment
 First, let's set up our Environment:
     <div class="container">
       <p>Some Text Here</p>
@@ -26,6 +28,7 @@ Here's the CSS that enjoys sucking on your browser's bone marrow:
     }
  
 
+#### The Fix
 Now, let's talk about what you need to do.
 
 Add a class to the copy so you can target it specifically.
