@@ -4,7 +4,7 @@
   <title><![CDATA[Category: html | itg]]></title>
   <link href="http://itsthatguy.github.com/itg.blog//blog/categories/html/atom.xml" rel="self"/>
   <link href="http://itsthatguy.github.com/itg.blog//"/>
-  <updated>2012-02-06T20:16:53-05:00</updated>
+  <updated>2012-02-06T20:21:50-05:00</updated>
   <id>http://itsthatguy.github.com/itg.blog//</id>
   <author>
     <name><![CDATA[Kevin Altman]]></name>
@@ -25,6 +25,8 @@
 
 <p>There is a big difference between graceful degradation, and causing your browser to crash because of a CSS pseudo-selector. I don't want to sit here and complain about my issues with Internet Explorer; I'd rather just focus on a fix.</p>
 
+<h4>Set up the Initial Environment</h4>
+
 <p>First, let's set up our Environment:</p>
 
 <pre><code>&lt;div class="container"&gt;
@@ -40,6 +42,8 @@
   font-size: 24pt;
 }
 </code></pre>
+
+<h4>The Fix</h4>
 
 <p>Now, let's talk about what you need to do.</p>
 
