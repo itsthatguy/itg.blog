@@ -4,7 +4,7 @@
   <title><![CDATA[Category: html | itg]]></title>
   <link href="http://itsthatguy.github.com/itg.blog//blog/categories/html/atom.xml" rel="self"/>
   <link href="http://itsthatguy.github.com/itg.blog//"/>
-  <updated>2012-02-06T20:21:50-05:00</updated>
+  <updated>2012-03-09T13:48:44-05:00</updated>
   <id>http://itsthatguy.github.com/itg.blog//</id>
   <author>
     <name><![CDATA[Kevin Altman]]></name>
@@ -18,52 +18,7 @@
     <link href="http://itsthatguy.github.com/itg.blog//blog/2012/02/02/just-another-ie-complaint-dot-dot-dot/"/>
     <updated>2012-02-02T10:08:00-05:00</updated>
     <id>http://itsthatguy.github.com/itg.blog//blog/2012/02/02/just-another-ie-complaint-dot-dot-dot</id>
-    <content type="html"><![CDATA[<p>Yesterday, I found a pretty nasty CSS bug that completely shut down IE8. If you tried to view a page that had the CSS, the browser would completely freeze and would not recover. You had to ctrl+alt+del and kill it.</p>
-
-<!--more-->
-
-
-<p>There is a big difference between graceful degradation, and causing your browser to crash because of a CSS pseudo-selector. I don't want to sit here and complain about my issues with Internet Explorer; I'd rather just focus on a fix.</p>
-
-<h4>Set up the Initial Environment</h4>
-
-<p>First, let's set up our Environment:</p>
-
-<pre><code>&lt;div class="container"&gt;
-  &lt;p&gt;Some Text Here&lt;/p&gt;
-  &lt;p&gt;@powpow&lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>Here's the CSS that enjoys sucking on your browser's bone marrow:</p>
-
-<pre><code>.container:first-letter {
-  color: blue;
-  font-size: 24pt;
-}
-</code></pre>
-
-<h4>The Fix</h4>
-
-<p>Now, let's talk about what you need to do.</p>
-
-<p>Add a class to the copy so you can target it specifically.</p>
-
-<pre><code>&lt;div class="container"&gt;
-  &lt;p class="copy"&gt;Some Text Here&lt;/p&gt;
-  &lt;p&gt;@powpow&lt;/p&gt;
-&lt;/div&gt;
-</code></pre>
-
-<p>The good CSS:</p>
-
-<pre><code>.container .copy:first-letter {
-  color: blue;
-  font-size: 24pt;
-}
-</code></pre>
-
-<p>I know this seems simple, but little mistakes like this in your code are extremely easy to overlook. Not only that, but different patches to IE8 resolve, and then re-introduce the bug... Long story short, try to avoid using first letter for nested elements.</p>
+    <content type="html"><![CDATA[<p>boo</p>
 ]]></content>
   </entry>
   
